@@ -31,7 +31,7 @@ $(".service-carousel").owlCarousel({
                 center: !0,
                 margin: 30,
                 responsive: { 0: { items: 1 }, 768: { items: 2 }, 992: { items: 2 } },
-
+	
 });
 
 
@@ -43,7 +43,7 @@ $(".testi-carousel").owlCarousel({
     goToFirstSpeed: 2000,
     singleItem: true,
     autoHeight: true,
-	responsive: { 0: { items: 1 }, 768: { items: 1 }, 992: { items: 1 } },
+	responsive: { 0: { items: 1 }, 768: { items: 1 }, 992: { items: 1 } },	
 });
 
 
@@ -59,9 +59,9 @@ $(".testi-carousel").owlCarousel({
             navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
             responsive: { 0: { items: 1 }, 768: { items: 1 }, 992: { items: 2, margin: 45 }, 1200: { items: 3, margin: 45 } },
         });
-
-
-
+		
+		
+		
 $(".testimonial-carousel").owlCarousel({
 	loop: !0,
 	responsiveClass: !0,
@@ -71,10 +71,10 @@ $(".testimonial-carousel").owlCarousel({
 	dots: !0,
 	center: !1,
 	margin: 0,
-	responsive: { 0: { items: 1, margin: 0 }, 768: { items: 1 }, 992: { items: 2 } },
-});
-
-
+	responsive: { 0: { items: 1, margin: 0 }, 768: { items: 1 }, 992: { items: 2 } },	
+});		
+		
+		
 
 /* ==================================================
 	# Testimonial Carousel
@@ -98,10 +98,10 @@ $('.testimonials-carousel').owlCarousel({
 		}
 	}
 });
-
-
-
-
+		
+		
+		
+		
 /*--------------------------------------
   Isotope initialization
   --------------------------------------*/
@@ -186,34 +186,34 @@ $('.testimonials-carousel').owlCarousel({
       });
     }
   });
-
+		
   $('.countup').counterUp({
     delay: 25,
     time: 2000
   });
-
+  
 
 	jQuery('.testimonial-2-content').owlCarousel({
 		loop:true,
 		autoplay:false,
 		nav:true,
-		dots: true,
+		dots: true,	
 		margin:30,
 		navText: ['<i class="ti-arrow-left"></i>', '<i class="ti-arrow-right"></i>'],
 		responsive:{
-
+		
 			0:{
 				items:1,
 			},
 			1400:{
 				items:1
-			}
+			}					
 		}
 	});
 
-
-
-
+  
+  
+  
   //Main Slider / Banner Carousel
 
 
@@ -267,7 +267,7 @@ $('.testimonials-carousel').owlCarousel({
 
         });
 
-
+  
 
 $('.avli-testimonial-slider-wrap, .avli-blog-slide').owlCarousel({
 	margin:30,
@@ -307,7 +307,7 @@ $('.avli-testimonial-slider-wrap, .avli-blog-slide').owlCarousel({
 })
 
 
-
+  
         /* ==================================================
             # Testimonial Carousel
          ===============================================*/
@@ -327,11 +327,11 @@ $('.avli-testimonial-slider-wrap, .avli-blog-slide').owlCarousel({
             }
         });
 
-
-
-
-
-
+		
+	
+	
+	
+	
         $('.project-carousel').owlCarousel({
             loop: false,
             margin: 10,
@@ -346,12 +346,12 @@ $('.avli-testimonial-slider-wrap, .avli-blog-slide').owlCarousel({
                     items: 3
                 }
             }
-        });
-
-
-
-
-
+        });	
+	
+	
+	
+	
+	
 	       $('.services-carousel').owlCarousel({
             loop: false,
             margin: 30,
@@ -390,7 +390,7 @@ $('.avli-testimonial-slider-wrap, .avli-blog-slide').owlCarousel({
 
             }
         });
-
+	 		
 
 		$('.banner-slider-two').owlCarousel({
 		items: 1,
@@ -408,12 +408,12 @@ $('.avli-testimonial-slider-wrap, .avli-blog-slide').owlCarousel({
                 "<i class='fa fa-angle-left'></i>",
                 "<i class='fa fa-angle-right'></i>"
 		],
-	});
-
-
-
-
-
+	});	
+  
+  
+  
+  
+   
         $(".slider-carousel").owlCarousel({
             margin: 0,
             nav: true,
@@ -431,9 +431,9 @@ $('.avli-testimonial-slider-wrap, .avli-blog-slide').owlCarousel({
             autoplayHoverPause: false,
             responsiveClass: true
         });
-
-
-
+  
+  
+  
          $(".rs-carousel").owlCarousel({
             margin: 0,
             nav: true,
@@ -451,16 +451,16 @@ $('.avli-testimonial-slider-wrap, .avli-blog-slide').owlCarousel({
             autoplayHoverPause: false,
             responsiveClass: true
         });
-
-
-
-
-
-
-
-
-
-
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
          $(".rs-carousel-pro").owlCarousel({
                     margin: 30,
 					autoplay: false,
@@ -495,14 +495,14 @@ $('.avli-testimonial-slider-wrap, .avli-blog-slide').owlCarousel({
 
 						}
 					},
-				})
-
-
-
-
-
-
-
+				})		
+		
+		
+		
+		
+		
+		
+		
  /*  Testimonial-Slider-Owl-carousel  */
 
         $('.testimonial_slider_home1').owlCarousel({
@@ -547,12 +547,12 @@ $('.avli-testimonial-slider-wrap, .avli-blog-slide').owlCarousel({
                 }
             }
         })
-
-
-
-
-
-
+		
+		
+		
+		
+		
+		
 
         jQuery('.testimonial_slider_home1').owlCarousel({
             loop:true,
@@ -593,8 +593,8 @@ $('.avli-testimonial-slider-wrap, .avli-blog-slide').owlCarousel({
             }
         })
 
-
-
+  
+  
   	       $('#client-slide-2').owlCarousel({
 					margin: 30,
 					autoplay: true,
@@ -630,10 +630,10 @@ $('.avli-testimonial-slider-wrap, .avli-blog-slide').owlCarousel({
 						}
             }
         });
-
-
-
-
+  
+  
+  
+  
   	$('.grid').imagesLoaded( function() {
 		// init Isotope
 		var $grid = $('.grid').isotope({
@@ -660,9 +660,9 @@ $('.avli-testimonial-slider-wrap, .avli-blog-slide').owlCarousel({
 	});
 
 	});
-
-
-
+  
+  
+  
 
         $('.magnific-mix-gallery').each(function() {
             var $container = $(this);
@@ -772,15 +772,22 @@ jQuery('.navbar-nav li a').click(function(){
 
 
 
-
+			
 				$('.medi-app-search-btn').on('click', function() {
 					$('.app-medi-search-body').toggleClass('app-medi-search-open');
 				});
-
+		
 
 
 
 
 })(jQuery);
+
+
+
+
+
+
+
 
 
