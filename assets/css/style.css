@@ -1675,26 +1675,26 @@ block-74 {
   Block - 132
 --------------------*/
 
-.block-132 {
-  background-color: #e1126f;
+.voluntariado {
+  background-color: #EEEEEE;
   background-image: url(../images/mitech-processing-contact-bg.png);
   background-repeat: no-repeat;
   background-position: top right;
 }
-.block-132 {
+.voluntariado {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-.block-132 .conact-us-wrap-one .heading {
+.voluntariado .conact-us-wrap-one .heading {
   position: relative;
   padding-left: 34px;
   font-weight: 600;
   line-height: 1.4;
 }
-.block-132 .text-white {
-  color: #fff !important;
+.voluntariado .text {
+  color: #e1126f !important;
 }
-.block-132 .conact-us-wrap-one .heading::before {
+.voluntariado .conact-us-wrap-one .heading::before {
   content: "";
   position: absolute;
   top: 50%;
@@ -1706,28 +1706,21 @@ block-74 {
   transform: translateY(-50%);
   background-color: #e1126f;
 }
-.block-132 .conact-us-wrap-one .sub-heading {
+.voluntariado .conact-us-wrap-one .sub-heading {
   margin-top: 15px;
   font-size: 18px;
   margin-left: 34px;
   color: #fff;
+  text-align: justify;
 }
-.block-132 .text-center {
+.voluntariado .text-center {
   text-align: center !important;
 }
-.block-132 .contact-info-two .icon {
-  color: #fff;
-}
-.block-132 .contact-info-one .icon,
-.contact-info-two .icon,
-.contact-info-three .icon {
-  font-size: 40px;
-  color: #086ad8;
-}
-.block-132 .contact-info-two .heading {
+
+.voluntariado .contact-info-two .heading {
   color: rgba(255, 255, 255, 0.8);
 }
-.block-132 .contact-info-one .heading,
+.voluntariado .contact-info-one .heading,
 .contact-info-two .heading,
 .contact-info-three .heading {
   font-size: 15px;
@@ -1736,16 +1729,16 @@ block-74 {
   margin-bottom: 10px;
   margin-top: 10px;
 }
-.block-132 .font-weight--reguler {
+.voluntariado .font-weight--reguler {
   font-weight: 500;
 }
-.block-132 .contact-info-two .call-us {
+.voluntariado .contact-info-two .call-us {
   color: #e1126f !important;
 }
-.block-132 .contact-info-two .call-us a {
+.voluntariado .contact-info-two .call-us a {
   color: #e1126f !important;
 }
-.block-132 .contact-info-one .call-us,
+.voluntariado .contact-info-one .call-us,
 .contact-info-two .call-us,
 .contact-info-three .call-us {
   line-height: 1.17;
@@ -1755,6 +1748,23 @@ block-74 {
   font-size: 48px;
 }
 
+.voluntariado .contact-us-button {
+  margin-top: 30px;
+  background-color: #e1126f;
+  color: #fff;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: #fff;
+}
+
+.voluntariado .contact-us-button:hover {
+  background-color: #fff;
+  color: #e1126f;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
 /*------------------
   Block - 161
 --------------------*/
