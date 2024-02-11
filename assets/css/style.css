@@ -654,7 +654,7 @@ h6 {
   pointer-events: none;
 }
 
-.block-170 .section-heading {
+.agenda .section-heading {
   position: relative;
   z-index: 1;
   text-align: center;
@@ -1491,19 +1491,19 @@ block-74 {
   Block - 170
 --------------------*/
 
-.block-170 {
+.agenda {
   padding: 120px 0;
   overflow: hidden;
   background: #fff;
 }
-.block-170 .history-wrapper {
+.agenda .agenda-wrapper {
   position: relative;
 }
-.block-170 .history-wrapper .row [class*="col-"] {
+.agenda .agenda-wrapper .row [class*="col-"] {
   padding-left: 50px;
   padding-right: 50px;
 }
-.block-170 .history-wrapper .history-line {
+.agenda .agenda-wrapper .agenda-line {
   display: block;
   position: absolute;
   top: -50px;
@@ -1514,7 +1514,7 @@ block-74 {
   margin-left: -1px;
   background-color: #ededed;
 }
-.block-170 .history-wrapper .history-dot {
+.agenda .agenda-wrapper .agenda-dot {
   display: block;
   position: absolute;
   top: 72px;
@@ -1528,71 +1528,71 @@ block-74 {
   border-style: solid;
   border-radius: 50%;
 }
-.block-170 .history-wrapper .history-dot.pink {
+.agenda .agenda-wrapper .agenda-dot.pink {
   background-color: #e94794;
   border-color: #fdc5d3;
 }
-.block-170 .history-wrapper .history-dot.purple {
+.agenda .agenda-wrapper .agenda-dot.purple {
   background-color: #7778fa;
   border-color: #e4e4fe;
 }
-.block-170 .history-wrapper .history-dot.yellow {
+.agenda .agenda-wrapper .agenda-dot.yellow {
   background-color: #ff9322;
   border-color: #ffe9d3;
 }
-.block-170 .history-wrapper .history-dot.blue {
+.agenda .agenda-wrapper .agenda-dot.blue {
   background-color: #73b4fe;
   border-color: #e3f0ff;
 }
-.block-170 .history-wrapper .history-content {
+.agenda .agenda-wrapper .agenda-content {
   background-color: #ffffff;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   padding: 40px;
 }
-.block-170 .history-wrapper .history-content.border-dark-pink:hover {
+.agenda .agenda-wrapper .agenda-content.border-dark-pink:hover {
   background-color: #e94794;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
   transition: background-color 0.32s;
 }
-.block-170 .history-wrapper .history-content:hover h3,
-.block-170 .history-wrapper .history-content:hover p {
+.agenda .agenda-wrapper .agenda-content:hover h3,
+.agenda .agenda-wrapper .agenda-content:hover p {
   color: #ffffff !important;
 }
-.block-170 .history-wrapper .history-content.border-purple:hover {
+.agenda .agenda-wrapper .agenda-content.border-purple:hover {
   background-color: #7778fa;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
   transition: background-color 0.32s;
 }
-.block-170 .history-wrapper .history-content.border-yellow:hover {
+.agenda .agenda-wrapper .agenda-content.border-yellow:hover {
   background-color: #ff9322;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
   transition: background-color 0.32s;
 }
-.block-170 .history-wrapper .history-content.border-blue:hover {
+.agenda .agenda-wrapper .agenda-content.border-blue:hover {
   background-color: #73b4fe;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
   transition: background-color 0.32s;
 }
 @media screen and (max-width: 991px) {
-  .block-170 .history-wrapper .row [class*="col-"] {
+  .agenda .agenda-wrapper .row [class*="col-"] {
     padding-left: 40px;
     padding-right: 40px;
   }
-  .block-170 .history-wrapper .history-content {
+  .agenda .agenda-wrapper .agenda-content {
     padding: 30px;
   }
 }
 @media screen and (max-width: 767px) {
-  .block-170 .history-wrapper .row [class*="col-"] {
+  .agenda .agenda-wrapper .row [class*="col-"] {
     padding-left: 50px;
     padding-right: 0;
   }
-  .block-170 .history-wrapper .history-line {
+  .agenda .agenda-wrapper .agenda-line {
     top: -30px;
     left: 0;
   }
-  .block-170 .history-wrapper .history-dot {
+  .agenda .agenda-wrapper .agenda-dot {
     top: 60px;
     left: 0;
     width: 18px;
@@ -1600,17 +1600,18 @@ block-74 {
   }
 }
 @media screen and (max-width: 575px) {
-  .block-170 .history-wrapper .row [class*="col-"] {
+  .agenda .agenda-wrapper .row [class*="col-"] {
     padding-left: 15px;
     padding-right: 15px;
   }
-  .block-170 .history-wrapper .history-line,
-  .block-170 .history-wrapper .history-dot {
+  .agenda .agenda-wrapper .agenda-line,
+  .agenda .agenda-wrapper .agenda-dot {
     display: none;
   }
 }
-.block-170 h2.mb-0.h1 {
+.agenda h2.mb-0.h1 {
   margin: 0 0 90px 0 !important;
+  color: #e1126f;
 }
 
 /*------------------
@@ -1676,7 +1677,7 @@ block-74 {
 --------------------*/
 
 .voluntariado {
-  background-color: #EEEEEE;
+  background-color: #eeeeee;
   background-image: url(../images/mitech-processing-contact-bg.png);
   background-repeat: no-repeat;
   background-position: top right;
