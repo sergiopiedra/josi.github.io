@@ -2787,3 +2787,59 @@ block-74 {
     max-width: 100%;
   }
 }
+
+/*------------------
+  Block - 175
+--------------------*/
+
+.promoBanner {
+  background-attachment: fixed;
+  background-image: url(../images/promobanner.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.promoBanner {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+  padding: 180px 0;
+  position: relative;
+}
+.promoBanner:before {
+  background-color: rgba(29, 41, 62, 0.5);
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.promoBanner .business_exposer {
+  position: relative;
+}
+.promoBanner .text-center {
+  text-align: center !important;
+}
+.promoBanner .business_exposer .title {
+  font-size: 67px;
+  font-weight: 500;
+  line-height: 72px;
+}
+.promoBanner .mb20 {
+  margin-bottom: 20px !important;
+}
+.promoBanner .text-white {
+  color: #fff !important;
+}
+.promoBanner .mb35 {
+  margin-bottom: 35px;
+}
+.promoBanner {
+  background-attachment: fixed;
+  background-position: 50% 0px;
+  z-index: 1;
+  position: relative;
+}
