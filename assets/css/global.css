@@ -32,7 +32,7 @@ li {
 }
 
 a {
-  color: #222222;
+  color: #6f6f6f;
   text-decoration: none;
   position: relative;
 }
@@ -59,7 +59,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #222222;
+  color: #6f6f6f;
   font-weight: 600;
   margin-top: 0;
   margin-bottom: 15px;
@@ -826,7 +826,7 @@ ul li {
 -------------------------------------------------------------*/
 
 body {
-  color: #222;
+  color: #6f6f6f;
   overflow-x: hidden !important;
   font-family: "Merriweather", sans-serif;
   font-weight: normal;
@@ -1179,13 +1179,13 @@ fieldset:disabled a.btn {
 .btn-dark:hover {
   color: #fff;
   background-color: #272d39;
-  border-color: #222732;
+  border-color: #6F6F6F732;
 }
 .btn-dark:focus,
 .btn-dark.focus {
   color: #fff;
   background-color: #272d39;
-  border-color: #222732;
+  border-color: #6F6F6F732;
   box-shadow: 0 0 0 0 rgba(85, 92, 106, 0.5);
 }
 .btn-dark.disabled,
@@ -1198,7 +1198,7 @@ fieldset:disabled a.btn {
 .btn-dark:not(:disabled):not(.disabled).active,
 .show > .btn-dark.dropdown-toggle {
   color: #fff;
-  background-color: #222732;
+  background-color: #6F6F6F732;
   border-color: #1d212a;
 }
 .btn-dark:not(:disabled):not(.disabled):active:focus,
@@ -1208,27 +1208,27 @@ fieldset:disabled a.btn {
 }
 .btn-accent {
   color: #fff;
-  background-color: #e1126f;
-  border-color: #e1126f;
+  background-color: #e5006d;
+  border-color: #e5006d;
   box-shadow: none;
 }
 .btn-accent:hover {
   color: #fff;
-  background-color: #e1126f;
+  background-color: #e5006d;
   border-color: #363cad;
 }
 .btn-accent:focus,
 .btn-accent.focus {
   color: #fff;
-  background-color: #e1126f;
+  background-color: #e5006d;
   border-color: #363cad;
   box-shadow: 0 0 0 0 rgba(105, 110, 208, 0.5);
 }
 .btn-accent.disabled,
 .btn-accent:disabled {
   color: #fff;
-  background-color: #e1126f;
-  border-color: #e1126f;
+  background-color: #e5006d;
+  border-color: #e5006d;
 }
 .btn-accent:not(:disabled):not(.disabled):active,
 .btn-accent:not(:disabled):not(.disabled).active,
@@ -1483,13 +1483,13 @@ fieldset:disabled a.btn {
   box-shadow: 0 0 0 0 rgba(55, 63, 80, 0.5);
 }
 .btn-outline-accent {
-  color: #e1126f;
-  border-color: #e1126f;
+  color: #e5006d;
+  border-color: #e5006d;
 }
 .btn-outline-accent:hover {
   color: #fff;
-  background-color: #e1126f;
-  border-color: #e1126f;
+  background-color: #e5006d;
+  border-color: #e5006d;
 }
 .btn-outline-accent:focus,
 .btn-outline-accent.focus {
@@ -1497,15 +1497,15 @@ fieldset:disabled a.btn {
 }
 .btn-outline-accent.disabled,
 .btn-outline-accent:disabled {
-  color: #e1126f;
+  color: #e5006d;
   background-color: transparent;
 }
 .btn-outline-accent:not(:disabled):not(.disabled):active,
 .btn-outline-accent:not(:disabled):not(.disabled).active,
 .show > .btn-outline-accent.dropdown-toggle {
   color: #fff;
-  background-color: #e1126f;
-  border-color: #e1126f;
+  background-color: #e5006d;
+  border-color: #e5006d;
 }
 .btn-outline-accent:not(:disabled):not(.disabled):active:focus,
 .btn-outline-accent:not(:disabled):not(.disabled).active:focus,
@@ -1652,7 +1652,7 @@ input[type="button"].btn-block {
   box-shadow: 0 0.5rem 1.125rem -0.5rem rgba(55, 63, 80, 0.9);
 }
 .btn-accent.btn-shadow {
-  box-shadow: 0 0.5rem 1.125rem -0.5rem #e1126f;
+  box-shadow: 0 0.5rem 1.125rem -0.5rem #e5006d;
 }
 .btn-secondary.btn-shadow,
 .btn-light.btn-shadow {
@@ -2030,7 +2030,7 @@ button:focus {
   padding: 80px 0 120px 0;
 }
 .blogSingle .fixed-top {
-  background: #222;
+  background: #6f6f6f;
 }
 
 .blogSingle .social-area li {

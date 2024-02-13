@@ -34,7 +34,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #222222;
+  color: #6f6f6f;
   font-weight: 600;
   margin-top: 0;
   margin-bottom: 15px;
@@ -51,7 +51,7 @@ h6 {
   position: fixed;
   overflow: hidden;
   height: 100%;
-  background: #e1126f;
+  background: #e5006d;
   left: 0;
   top: 0;
   z-index: 99999;
@@ -89,7 +89,7 @@ h6 {
   left: -1px;
   width: 252px;
   height: 126px;
-  background-color: #e1126f;
+  background-color: #e5006d;
 }
 .circle-inner {
   position: relative;
@@ -98,7 +98,7 @@ h6 {
   width: 190px;
   height: 190px;
   border-radius: 50%;
-  background-color: #e1126f;
+  background-color: #e5006d;
   -webkit-animation: inneranim 0.5s ease-in-out alternate infinite;
   animation: inneranim 0.5s ease-in-out alternate infinite;
 }
@@ -121,7 +121,7 @@ h6 {
   left: -1px;
   width: 252px;
   height: 126px;
-  background-color: #e1126f;
+  background-color: #e5006d;
 }
 @keyframes inneranim {
   0% {
@@ -192,7 +192,7 @@ h6 {
   display: block;
 }
 .HeaderStyle-1 .nav-sticky {
-  background-color: rgba(0, 0, 0, 0.784);
+  background-color: rgba(255, 255, 255, 0.784);
   padding: 20px 0px;
   box-shadow: 0px 4px 20px rgba(5, 47, 97, 0.08);
 }
@@ -214,7 +214,7 @@ h6 {
 .HeaderStyle-1 .navbar-light .nav-item .nav-link:hover,
 .HeaderStyle-1 .navbar-light .nav-item .nav-link:focus,
 .HeaderStyle-1 .navbar-light .nav-item .nav-link.active {
-  color: #e1126f !important;
+  color: #e5006d !important;
 }
 .HeaderStyle-1 .navbar-light .navbar-brand .logo-dark {
   display: block;
@@ -246,17 +246,18 @@ h6 {
   color: #fff;
   padding: 8px 16px;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 18px;
 }
 .HeaderStyle-1 .navbar .navbar-nav .nav-item.active .nav-link {
-  color: #e1126f !important;
+  color: #e5006d !important;
 }
 .HeaderStyle-1 .nav-sticky .nav-item .nav-link {
-  color: #fff !important;
+  font-size: 18px !important;
+  color: #242424 !important;
   text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.262);
 }
 .HeaderStyle-1 .nav-sticky .nav-item .nav-link:hover {
-  color: #e1126f !important;
+  color: #e5006d !important;
   text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.262);
 }
 .HeaderStyle-1 .navbar .navbar-toggler {
@@ -325,7 +326,7 @@ h6 {
   Block - 165
 --------------------*/
 .banner h1 span {
-  color: #e1126f;
+  color: #e5006d;
 }
 .banner {
   position: relative;
@@ -424,7 +425,7 @@ h6 {
 .about .alvabout-content .alvabout-list li {
   width: 50%;
   float: left;
-  color: #74b6e5;
+  color: #e5006d;
   font-weight: 700;
   padding-left: 30px;
   position: relative;
@@ -433,12 +434,12 @@ h6 {
 .about .alvabout-content .alvabout-list li:after {
   left: 0;
   top: -3px;
-  color: #e1126f;
+  color: #e5006d;
   font-size: 20px;
   content: "";
   font-weight: 900;
   position: absolute;
-  font-family: "Fjalla One", sans-serif;
+  font-family: "Font Awesome 5 Free";
 }
 .about .alvabout-content .alvabout-img {
   z-index: 1;
@@ -524,8 +525,8 @@ h6 {
   transition: 1s all ease-in-out;
 }
 .about .alvsection-title h2 {
-  color: #74b6e5;
-  font-size: 40px;
+  color: #e5006d;
+  font-size: 60px;
   font-weight: 700;
   padding-top: 5px;
   line-height: 1.375;
@@ -543,7 +544,7 @@ h6 {
   font-weight: 700;
   background-image: linear-gradient(
     81deg,
-    #e1126f 0%,
+    #e5006d 0%,
     #db77a4 75%,
     #fdb1d3 100%
   );
@@ -843,7 +844,7 @@ section.block-176 {
   font-size: 18px;
 }
 .block-176 .testimonial_item.home2 .thumb .subtitle {
-  color: #e1126f;
+  color: #e5006d;
   font-size: 13px;
   margin-bottom: 40px;
 }
@@ -979,7 +980,7 @@ section.block-176 {
   .owl-dots
   .owl-dot.active
   span {
-  background-color: #222222;
+  background-color: #6f6f6f;
   border-radius: 20px;
   height: 8px;
   width: 20px;
@@ -1035,7 +1036,7 @@ block-74 {
   margin: 0 auto 75px auto;
 }
 .block-74 .section-title span {
-  color: #e1126f;
+  color: #e5006d;
   background: rgba(42, 138, 226, 0.15);
   padding: 5px 20px;
   border-radius: 30px;
@@ -1095,7 +1096,7 @@ block-74 {
 }
 .block-74 .value .per {
   font-size: 13px;
-  color: #e1126f;
+  color: #e5006d;
 }
 .block-74 .value:after {
   bottom: 0;
@@ -1492,7 +1493,7 @@ block-74 {
   font-weight: 700;
   margin-bottom: 28px;
   position: relative;
-  color: #e1126f;
+  color: #e5006d;
 }
 
 /*------------------
@@ -1545,7 +1546,7 @@ block-74 {
   border-color: #e4e4fe;
 }
 .agenda .agenda-wrapper .agenda-dot.yellow {
-  background-color: #e1126f;
+  background-color: #e5006d;
   border-color: #ffe9d3;
 }
 .agenda .agenda-wrapper .agenda-dot.blue {
@@ -1573,7 +1574,7 @@ block-74 {
   transition: background-color 0.32s;
 }
 .agenda .agenda-wrapper .agenda-content.border-yellow:hover {
-  background-color: #e1126f;
+  background-color: #e5006d;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
   transition: background-color 0.32s;
 }
@@ -1619,7 +1620,7 @@ block-74 {
 }
 .agenda h2.mb-0.h1 {
   margin: 0 0 90px 0 !important;
-  color: #e1126f;
+  color: #e5006d;
 }
 
 /*------------------
@@ -1700,8 +1701,11 @@ block-74 {
   font-weight: 600;
   line-height: 1.4;
 }
+.voluntariado .title {
+  color: #e5006d !important;
+}
 .voluntariado .text {
-  color: #e1126f !important;
+  color: #6f6f6f !important;
 }
 .voluntariado .conact-us-wrap-one .heading::before {
   content: "";
@@ -1713,7 +1717,7 @@ block-74 {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  background-color: #e1126f;
+  background-color: #e5006d;
 }
 .voluntariado .conact-us-wrap-one .sub-heading {
   margin-top: 15px;
@@ -1742,16 +1746,16 @@ block-74 {
   font-weight: 500;
 }
 .voluntariado .contact-info-two .call-us {
-  color: #e1126f !important;
+  color: #e5006d !important;
 }
 .voluntariado .contact-info-two .call-us a {
-  color: #e1126f !important;
+  color: #e5006d !important;
 }
 .voluntariado .contact-info-one .call-us,
 .contact-info-two .call-us,
 .contact-info-three .call-us {
   line-height: 1.17;
-  color: #e1126f;
+  color: #e5006d;
   position: relative;
   display: inline-block;
   font-size: 48px;
@@ -1759,7 +1763,7 @@ block-74 {
 
 .voluntariado .contact-us-button {
   margin-top: 30px;
-  background-color: #e1126f;
+  background-color: #e5006d;
   color: #fff;
   width: 150px;
   height: 150px;
@@ -1769,7 +1773,7 @@ block-74 {
 
 .voluntariado .contact-us-button:hover {
   background-color: #fff;
-  color: #e1126f;
+  color: #e5006d;
   width: 150px;
   height: 150px;
   border-radius: 50%;
@@ -1966,7 +1970,7 @@ block-74 {
   margin-bottom: 3rem !important;
 }
 .block-161 a:hover {
-  color: #e1126f;
+  color: #e5006d;
 }
 
 /*------------------
@@ -2050,7 +2054,7 @@ block-74 {
   content: "";
   width: 70px;
   height: 2px;
-  background-color: #e1126f;
+  background-color: #e5006d;
   left: 0;
   bottom: 0;
 }
@@ -2099,8 +2103,8 @@ block-74 {
 .block-54 .progress-charts .progress .progress-bar {
   overflow: visible;
   position: relative;
-  background: #e1126f;
-  color: #e1126f;
+  background: #e5006d;
+  color: #e5006d;
 }
 .block-54 .progress-bar {
   display: -webkit-box;
@@ -2117,7 +2121,7 @@ block-74 {
   color: #fff;
   text-align: center;
   white-space: nowrap;
-  background-color: #e1126f;
+  background-color: #e5006d;
   -webkit-transition: width 0.6s ease;
   -o-transition: width 0.6s ease;
   transition: width 0.6s ease;
@@ -2242,7 +2246,7 @@ block-74 {
   line-height: 30px;
   text-align: center;
   border-radius: 4px;
-  background-color: #e1126f;
+  background-color: #e5006d;
 }
 .sm-side_inner_content .side_contact .social_widget li a {
   color: #fff;
@@ -2282,7 +2286,7 @@ block-74 {
   font-size: 14px;
 }
 .sm-side_inner_content .close_btn:hover {
-  background-color: #e1126f;
+  background-color: #e5006d;
 }
 .sm-side_inner_content .close_btn:hover i {
   color: #fff;
@@ -2573,7 +2577,7 @@ block-74 {
   width: 120px;
   height: 60px;
   position: absolute;
-  background-color: #e1126f;
+  background-color: #e5006d;
 }
 .app-medi-search-body .outer-close {
   top: 40px;
@@ -2583,7 +2587,7 @@ block-74 {
   cursor: pointer;
   line-height: 50px;
   position: absolute;
-  background-color: #e1126f;
+  background-color: #e5006d;
 }
 .app-medi-search-body .outer-close i {
   color: #fff;
@@ -2609,7 +2613,7 @@ block-74 {
   letter-spacing: 2.5px;
   font-weight: 500;
   color: #fff;
-  background-color: #e1126f;
+  background-color: #e5006d;
   border: none;
   border-radius: 45px;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
@@ -2632,7 +2636,7 @@ block-74 {
 .footer-dark {
   padding: 50px 0;
   color: #ffffff;
-  background-color: #e1126f;
+  background-color: #e5006d;
 }
 
 .footer-dark h3 {
