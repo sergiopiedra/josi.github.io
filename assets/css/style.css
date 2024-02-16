@@ -24,6 +24,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
+@font-face {
+  font-family: "Godger";
+  src: url("../webfonts/GodgerDemoRegular-axZp9.woff2") format("woff2"),
+    url("../webfonts/GodgerDemoRegular-axZp9.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 
 body {
   font-family: "Fjalla One", sans-serif;
@@ -40,7 +47,7 @@ h6 {
   margin-bottom: 15px;
   letter-spacing: 0.025em;
   line-height: 1.6;
-  font-family: "Fjalla One", sans-serif;
+  font-family: "Godger", sans-serif;
 }
 /*------------------
   Preloader
@@ -1503,15 +1510,18 @@ block-74 {
 .agenda {
   padding: 120px 0;
   overflow: hidden;
-  background: #fff;
+  background: #ffffff;
 }
+
 .agenda .agenda-wrapper {
   position: relative;
 }
+
 .agenda .agenda-wrapper .row [class*="col-"] {
   padding-left: 50px;
   padding-right: 50px;
 }
+
 .agenda .agenda-wrapper .agenda-line {
   display: block;
   position: absolute;
@@ -1521,8 +1531,9 @@ block-74 {
   z-index: 0;
   width: 1px;
   margin-left: -1px;
-  background-color: #ededed;
+  background-color: #afafaf;
 }
+
 .agenda .agenda-wrapper .agenda-dot {
   display: block;
   position: absolute;
@@ -1537,52 +1548,68 @@ block-74 {
   border-style: solid;
   border-radius: 50%;
 }
+
 .agenda .agenda-wrapper .agenda-dot.pink {
-  background-color: #e94794;
-  border-color: #fdc5d3;
+  background-color: #e5006d;
+  border-color: #ffe9d3;
 }
+
 .agenda .agenda-wrapper .agenda-dot.purple {
-  background-color: #74b6e5;
-  border-color: #e4e4fe;
+  background-color: #73b4fe;
+  border-color: #e3f0ff;
 }
+
 .agenda .agenda-wrapper .agenda-dot.yellow {
   background-color: #e5006d;
   border-color: #ffe9d3;
 }
+
 .agenda .agenda-wrapper .agenda-dot.blue {
   background-color: #73b4fe;
   border-color: #e3f0ff;
 }
+
 .agenda .agenda-wrapper .agenda-content {
   background-color: #ffffff;
+  color: #e5006d;
+  border: 3px solid #e5006d;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   padding: 40px;
 }
+
 .agenda .agenda-wrapper .agenda-content.border-dark-pink:hover {
-  background-color: #e94794;
+  background-color: #e5006d;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
   transition: background-color 0.32s;
+  border: 3px solid #e5006d;
 }
+
 .agenda .agenda-wrapper .agenda-content:hover h3,
 .agenda .agenda-wrapper .agenda-content:hover p {
   color: #ffffff !important;
 }
+
 .agenda .agenda-wrapper .agenda-content.border-purple:hover {
-  background-color: #74b6e5;
+  background-color: #73b4fe;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
   transition: background-color 0.32s;
+  border: 3px solid #73b4fe;
 }
+
 .agenda .agenda-wrapper .agenda-content.border-yellow:hover {
   background-color: #e5006d;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
   transition: background-color 0.32s;
 }
+
 .agenda .agenda-wrapper .agenda-content.border-blue:hover {
   background-color: #73b4fe;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
   transition: background-color 0.32s;
+  border: 3px solid #73b4fe;
 }
+
 @media screen and (max-width: 991px) {
   .agenda .agenda-wrapper .row [class*="col-"] {
     padding-left: 40px;
@@ -1592,6 +1619,7 @@ block-74 {
     padding: 30px;
   }
 }
+
 @media screen and (max-width: 767px) {
   .agenda .agenda-wrapper .row [class*="col-"] {
     padding-left: 50px;
@@ -1608,6 +1636,7 @@ block-74 {
     height: 18px;
   }
 }
+
 @media screen and (max-width: 575px) {
   .agenda .agenda-wrapper .row [class*="col-"] {
     padding-left: 15px;
@@ -1618,9 +1647,14 @@ block-74 {
     display: none;
   }
 }
+
 .agenda h2.mb-0.h1 {
   margin: 0 0 90px 0 !important;
   color: #e5006d;
+}
+
+.agenda .h5 {
+  color: #e5006d !important;
 }
 
 /*------------------
