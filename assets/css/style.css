@@ -417,6 +417,27 @@ h6 {
 
 .about {
   padding-top: 60px;
+  background-color: #000;
+  background-image: url("/assets/images/07.jpg"); /* Imagen para dispositivos pequeños */
+  background-size: cover;
+}
+
+@media only screen and (min-width: 768px) {
+  .about {
+    background-image: url("/assets/images/07.jpg"); /* Imagen para dispositivos medianos */
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .about {
+    background-image: url("/assets/images/07.jpg"); /* Imagen para dispositivos grandes */
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .about {
+    background-image: url("/assets/images/07.jpg"); /* Imagen para dispositivos extra grandes */
+  }
 }
 .about .alvabout-title-text {
   padding-top: 25px;
@@ -1753,18 +1774,7 @@ block-74 {
 .voluntariado .text {
   color: #6f6f6f !important;
 }
-.voluntariado .conact-us-wrap-one .heading::before {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 0;
-  width: 4px;
-  height: 94%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  background-color: #e5006d;
-}
+
 .voluntariado .conact-us-wrap-one .sub-heading {
   margin-top: 15px;
   font-size: 18px;
