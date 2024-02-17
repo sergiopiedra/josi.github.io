@@ -418,25 +418,19 @@ h6 {
 .about {
   padding-top: 60px;
   background-color: #000;
-  background-image: url("/assets/images/07.jpg"); /* Imagen para dispositivos pequeños */
+  background-image: url("/assets/images/aboutUS_XL.jpg"); /* Imagen para dispositivos pequeños */
   background-size: cover;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 615px) {
   .about {
-    background-image: url("/assets/images/07.jpg"); /* Imagen para dispositivos medianos */
-  }
-}
-
-@media only screen and (min-width: 992px) {
-  .about {
-    background-image: url("/assets/images/07.jpg"); /* Imagen para dispositivos grandes */
+    background-image: url("/assets/images/aboutUS_M.jpg"); /* Imagen para dispositivos medianos */
   }
 }
 
 @media only screen and (min-width: 1200px) {
   .about {
-    background-image: url("/assets/images/07.jpg"); /* Imagen para dispositivos extra grandes */
+    background-image: url("/assets/images/aboutUS_XL.jpg"); /* Imagen para dispositivos extra grandes */
   }
 }
 .about .alvabout-title-text {
