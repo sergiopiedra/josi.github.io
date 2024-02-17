@@ -367,6 +367,9 @@ h6 {
 }
 .banner .text-white {
   color: #fff !important;
+  font-size: 113px !important;
+  font-family: "Godger", sans-serif !important;
+  text-align: left !important;
   line-height: 0.2;
   text-shadow: 0px 4px 20px rgba(0, 0, 0, 0.346);
 }
