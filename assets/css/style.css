@@ -2893,6 +2893,14 @@ block-74 {
   font-size: 67px;
   font-weight: 500;
   line-height: 72px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.565);
+}
+.promoBanner .business_exposer .sub-heading {
+  font-family: "Fjalla One", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 37px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.565);
 }
 
 .promoBanner .mb20 {
