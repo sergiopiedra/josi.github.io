@@ -229,7 +229,7 @@ h6 {
 .HeaderStyle-1 .navbar-light .navbar-brand .logo-light {
   display: none;
 }
-@media (max-width: 768px) {
+@media (max-width: 1246px) {
   .HeaderStyle-1 .navbar {
     background-color: #ffffff;
     box-shadow: 0px 4px 20px rgba(5, 47, 97, 0.08);
@@ -250,10 +250,11 @@ h6 {
   }
 }
 .HeaderStyle-1 .navbar .navbar-nav .nav-item .nav-link {
-  color: #fff;
+  color: #242424;
   padding: 8px 16px;
   font-weight: 500;
   font-size: 18px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.127);
 }
 .HeaderStyle-1 .navbar .navbar-nav .nav-item.active .nav-link {
   color: #e5006d !important;
@@ -364,11 +365,12 @@ h6 {
   height: 100% !important;
 }
 .banner .mt-6 {
-  margin-top: 4.5rem !important;
+  margin-top: 15rem !important;
+  margin-left: 5rem;
 }
 .banner .text-white {
   color: #fff !important;
-  font-size: 113px !important;
+  font-size: 100px !important;
   font-family: "Godger", sans-serif !important;
   text-align: left !important;
   line-height: 0.2;
@@ -377,6 +379,12 @@ h6 {
 @media screen and (max-width: 991px) {
   .banner .text-white {
     font-size: 70px !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  .banner .mt-6 {
+    margin-top: 15rem !important;
+    margin-left: 0rem;
   }
 }
 .banner .mt-4 {
@@ -408,9 +416,6 @@ h6 {
   .banner .d-sm-block {
     display: block !important;
   }
-}
-.banner .text-white {
-  color: #fff !important;
 }
 .banner .d-none {
   display: none !important;
