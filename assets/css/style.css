@@ -268,16 +268,17 @@ h6 {
   text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.262);
 }
 .HeaderStyle-1 .navbar .navbar-toggler {
-  color: #ffffff;
+  color: #e5006d;
   font-size: 38px;
 }
 @media (max-width: 991px) {
   .HeaderStyle-1 .navbar {
-    background-color: rgba(0, 0, 0, 0.877);
+    background-color: rgba(255, 255, 255, 0.806);
     box-shadow: 0px 4px 20px rgb(245 246 248 / 8%);
     padding: 10px 0px;
   }
   .HeaderStyle-1 .navbar .navbar-nav .nav-item .nav-link {
+    color: #242424;
     text-align: right;
     padding: 8px 12px;
     margin: 1px 0;
@@ -373,11 +374,15 @@ h6 {
   line-height: 0.2;
   text-shadow: 0px 4px 20px rgba(0, 0, 0, 0.346);
 }
+@media screen and (max-width: 991px) {
+  .banner .text-white {
+    font-size: 70px !important;
+  }
+}
 .banner .mt-4 {
   margin-top: 1.5rem !important;
 }
 .banner .display-3 {
-  font-size: 40px;
   font-weight: 700;
   line-height: 0.9;
 }
