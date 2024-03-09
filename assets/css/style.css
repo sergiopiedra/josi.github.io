@@ -343,6 +343,54 @@ h6 {
 }
 
 /*------------------
+whatsapp
+--------------------*/
+.joinchat {
+  position: fixed;
+  bottom: 20px; /* Ajusta la distancia desde la parte inferior según tus necesidades */
+  right: 20px; /* Ajusta la distancia desde la derecha según tus necesidades */
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.joinchat__button {
+  width: 50px; /* Ajusta el ancho del botón según tus necesidades */
+  height: 50px; /* Ajusta la altura del botón según tus necesidades */
+  background-color: #25d366; /* Color de fondo de tu botón */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.joinchat__button__open {
+  width: 30px; /* Ajusta el tamaño del icono según tus necesidades */
+  height: 30px; /* Ajusta el tamaño del icono según tus necesidades */
+  background-image: url("../images/whatsapp.png"); /* Reemplaza con la ruta de tu icono de WhatsApp */
+  background-size: cover;
+}
+
+.joinchat__tooltip {
+  display: none;
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+  background-color: #ffffff; /* Color de fondo del tooltip */
+  border-radius: 5px;
+  color: #e1136f; /* Color del texto del tooltip */
+}
+
+.joinchat:hover .joinchat__tooltip {
+  display: block;
+}
+/*------------------
+whatsapp end
+--------------------*/
+/*------------------
   Block - 165
 --------------------*/
 .banner h1 span {
