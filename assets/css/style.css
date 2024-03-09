@@ -771,6 +771,7 @@ modal
   border: 1px solid #888;
   width: 80%;
   position: relative; /* Agregado para posicionar elementos relativos a este contenedor */
+  overflow-y: auto; /* Agregado para agregar scroll vertical cuando es necesario */
 }
 
 .close-btn {
@@ -788,6 +789,7 @@ modal
 }
 
 .modal-title {
+  line-height: 1em;
   float: left;
   margin-right: 20px; /* Espacio entre el título y el botón de cerrar */
   color: #e1136f;
@@ -802,6 +804,7 @@ modal
 .modal-text p {
   margin-bottom: 15px; /* Espacio entre párrafos */
   font-size: 20px;
+  text-align: justify;
 }
 
 .modal-text ul {
