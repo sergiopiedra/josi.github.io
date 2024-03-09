@@ -1906,6 +1906,11 @@ block-74 {
     font-size: 50px !important;
   }
 }
+@media screen and (max-width: 991px) {
+  .voluntariado .conact-us-wrap-one .heading {
+    font-size: 40px !important;
+  }
+}
 .voluntariado .title {
   color: #e5006d !important;
 }
