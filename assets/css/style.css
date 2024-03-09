@@ -171,6 +171,16 @@ h6 {
   transition: all 0.3s ease-in-out;
   background-color: rgba(255, 255, 255, 0.941);
 }
+.dual-color-line {
+  height: 6px;
+  background: #e5006d;
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2; /* Set a value higher than the rest of the navbar */
+}
 .HeaderStyle-1 .navbar .navbar-nav .nav-item .nav-link {
   color: rgba(255, 255, 255, 0.65);
   font-size: 14px;
@@ -252,7 +262,7 @@ h6 {
   }
 }
 .HeaderStyle-1 .navbar .navbar-nav .nav-item .nav-link {
-  color: #75AFDE;
+  color: #75afde;
   padding: 8px 16px;
   font-weight: 500;
   font-size: 18px;
