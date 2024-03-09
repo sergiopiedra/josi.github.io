@@ -154,21 +154,21 @@
           <span class="texto">Propuesta #2</span>
           <span class="icono">+</span>
         </button>
-        <button class="boton grande">
+        <button class="boton grande" onclick="openModal(3)">
           <span class="texto">Propuesta #3</span>
           <span class="icono">+</span>
         </button>
       </div>
       <div class="columna">
-        <button class="boton grande">
+        <button class="boton grande" onclick="openModal(4)">
           <span class="texto">Propuesta #4</span>
           <span class="icono">+</span>
         </button>
-        <button class="boton grande">
+        <button class="boton grande" onclick="openModal(5)">
           <span class="texto">Propuesta #5</span>
           <span class="icono">+</span>
         </button>
-        <button class="boton grande">
+        <button class="boton grande" onclick="openModal(6)">
           <span class="texto">Propuesta #6</span>
           <span class="icono">+</span>
         </button>
@@ -183,29 +183,87 @@
       <span class="close-btn" onclick="closeModal(1)">&times;</span> <!-- Identificador único, por ejemplo, 1 -->
       <h2 class="modal-title">1. Escucha activa. Tus ideas valen y queremos escucharlas</h2>
       <div class="modal-text">
-        <p>Estamos recorriendo el circuito escuchando a los ciudadanos. No podemos pretender ser sus representantes en la Asamblea Nacional y no escuchar a la gente.</p>
-        <p>Estamos construyendo junto a la comunidad y con un equipo de expertos propuestas que sean factibles de realizar, que vayan en beneficio de los ciudadanos y que además interpreten sus sentimientos.</p>
+        <p>Estamos recorriendo el circuito escuchando a los ciudadanos. No podemos pretender ser sus representantes en
+          la Asamblea Nacional y no escuchar a la gente.</p>
+        <p>Estamos construyendo junto a la comunidad y con un equipo de expertos propuestas que sean factibles de
+          realizar, que vayan en beneficio de los ciudadanos y que además interpreten sus sentimientos.</p>
       </div>
     </div>
   </div>
 
-    <!-- Modal 2 -->
-    <div id="modal2" class="modal">
-      <div class="modal-content">
-        <span class="close-btn" onclick="closeModal(2)">&times;</span> <!-- Identificador único, por ejemplo, 1 -->
-        <h2 class="modal-title">2. Escucha activa. Tus ideas valen y queremos escucharlas</h2>
-        <div class="modal-text">
-          <p>Estamos recorriendo el circuito escuchando a los ciudadanos. No podemos pretender ser sus representantes en la Asamblea Nacional y no escuchar a la gente.</p>
-          <p>Estamos construyendo junto a la comunidad y con un equipo de expertos propuestas que sean factibles de realizar, que vayan en beneficio de los ciudadanos y que además interpreten sus sentimientos.</p>
-          <ul>
-            <li>Viñeta 1</li>
-            <li>Viñeta 2</li>
-            <li>Viñeta 3</li>
-          </ul>
-        </div>
+  <!-- Modal 2 -->
+  <div id="modal2" class="modal">
+    <div class="modal-content">
+      <span class="close-btn" onclick="closeModal(2)">&times;</span> <!-- Identificador único, por ejemplo, 1 -->
+      <h2 class="modal-title">2. Cárcel para los corruptos.</h2>
+      <div class="modal-text">
+        <p>Un clamor de los ciudadanos es que a los corruptos no se les castiga. Eso debe cambiar. Promoveremos una ley que establezca cárcel para los corruptos. Todo funcionario público (electo o nombrado) estará sometido a esa ley.</p>
+        <p>Tenemos a un equipo de abogados desarrollando el texto base para llevarla a la Asamblea Nacional los primeros días del nuevo periodo.</p>
       </div>
     </div>
+  </div>
 
+  <!-- Modal 3 -->
+  <div id="modal3" class="modal">
+    <div class="modal-content">
+      <span class="close-btn" onclick="closeModal(3)">&times;</span> <!-- Identificador único, por ejemplo, 1 -->
+      <h2 class="modal-title">3.	Acabar con los privilegios de los diputados</h2>
+      <div class="modal-text">
+        <p>Los diputados actualmente gozan de una serie de privilegios como la exoneración de vehículos, manejo de planilla y de partidas, derecho a faltar, y que no se le descuente. Eso debe ser eliminado.</p>
+        <p>Pero el privilegio más importante a ser eliminado es el del procesamiento judicial como la prueba idónea y tiempos de muy cortos de investigación. Eso es un privilegio sencillamente escandaloso. ¿Por qué en la casa de las leyes, sus miembros van a estar por encima de los demás?</p>
+        <p>Otro privilegio que debe ser eliminado la No responsabilidad por opiniones generadas en los debates. Todos debemos ser responsables de los que decimos y hacemos.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 4 -->
+  <div id="modal4" class="modal">
+    <div class="modal-content">
+      <span class="close-btn" onclick="closeModal(4)">&times;</span> <!-- Identificador único, por ejemplo, 1 -->
+      <h2 class="modal-title">4.	Oportunidades para todos.</h2>
+      <div class="modal-text">
+        <ul>
+          <li>¿Cómo vamos a generar oportunidades?</li>
+          <li>¿Cuáles son las necesidades reales de los empresarios y cuales las de los jóvenes?</li>
+        </ul>
+        <p>El <b>primer paso</b> es reformando la ley de “Mi primer empleo” pues es mejorable siempre y cuando se pueda crear mejores condiciones para las empresas y para quienes aspiran a un trabajo por primera vez. </p>
+        <p><b>Segundo paso</b>, impulso al empleo local. Crear incentivos para que las empresas les den prioridad a los solicitantes de la localidad. Lo que más podrían apreciar los ciudadanos es poder trabajar cerca de su lugar de residencia. Eso les permitiría tener más tiempo de calidad para su familia.</p>
+        <p><b>Tercer paso</b>, incentivos para los emprendedores. Si bien ya hay una ley y ella ha simplificado el acceso a muchas herramientas, hay que aterrizarlas más aun, hacerlas más accesibles, creando oficinas locales en cada corregimiento en lo que se les pueda dar apoyo en distintas disciplinas (Educación continua en marketing, redes sociales, estudio de mercado, valor del producto o servicio, negociación, contabilidad, etcétera) </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 5 -->
+  <div id="modal5" class="modal">
+    <div class="modal-content">
+      <span class="close-btn" onclick="closeModal(5)">&times;</span> <!-- Identificador único, por ejemplo, 1 -->
+      <h2 class="modal-title">5.	Educación. Aprendo, trabajo y produzco.</h2>
+      <div class="modal-text">
+        <p>Aprender un oficio para luego evolucionar. </p>
+        <p>Escuelas Técnicas, dotadas, gratuitas, que les permitan a los jóvenes estudiar una carrera técnica en máximo dos años, que aprendan un oficio. Al poco tiempo de comenzar en la escuela técnicas pueden comenzar prácticas en empresas locales y combinar estudio con aprendizaje.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 6 -->
+  <div id="modal6" class="modal">
+    <div class="modal-content">
+      <span class="close-btn" onclick="closeModal(6)">&times;</span> <!-- Identificador único, por ejemplo, 1 -->
+      <h2 class="modal-title">6.	Constituyente</h2>
+      <div class="modal-text">
+        <ul>
+          <li>La última modificación de la Constitución se hizo en 2004. </li>
+          <li>Ya van 20 años, y el mundo ha cambiado muchísimo.</li>
+          <li>Si queremos que Panamá sea un país de primer nivel, del primer mundo, debemos hacer una nueva Constitución.</li>
+          <li>Una que represente el sueño de país que tenemos los panameños, que nos una a todos. </li>
+          <li>Debemos fijarnos en el caso reciente de Chile.</li>
+          <li>Dos intentos y no lo lograron. En ambos casos, un grupo trato de imponer sobre el otro sus opiniones e intereses.</li>
+        </ul>
+        <p>No desarrollaron un sueño de país, que los uniera y que además de proteger los derechos ciudadanos, creara oportunidades para todos.</p>
+        <p>Debemos entonces, hacer una Asamblea Constituyente originaria, donde los diputados de la AN no participen, ellos deben seguir legislando, mientras la Asamblea Constituyente crea la nueva Constitución que nos llevará al futuro.</p>
+      </div>
+    </div>
+  </div>
 
   <!--<section class="propuestas" id="propuestas">
     <div class="container">

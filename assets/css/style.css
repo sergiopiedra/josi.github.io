@@ -775,7 +775,7 @@ modal
 }
 
 .close-btn {
-  color: #aaa;
+  color: #e1136f;
   font-size: 50px;
   font-weight: bold;
   cursor: pointer;
@@ -785,15 +785,16 @@ modal
 }
 
 .close-btn:hover {
-  color: #ff0000;
+  color: #a20000;
 }
 
 .modal-title {
+  font-family: "fjalla one", sans-serif;
   line-height: 1em;
   float: left;
   margin-right: 20px; /* Espacio entre el título y el botón de cerrar */
   color: #e1136f;
-  font-size: 50px;
+  font-size: 40px;
   padding-bottom: 20px; /* Espacio entre el título y el contenido del modal */
 }
 
@@ -810,12 +811,13 @@ modal
 .modal-text ul {
   list-style-type: disc; /* Tipo de viñetas (puedes cambiar a 'circle' o 'square') */
   margin-left: 20px; /* Margen izquierdo para las viñetas */
+  font-size: 20px;
+  padding-bottom: 10px; /* Espacio entre el título y el contenido del modal */
 }
 
 .modal-text li {
   margin-bottom: 8px; /* Espacio entre elementos de la lista */
 }
-
 
 /*------------------
   Block - 176
