@@ -750,12 +750,70 @@ whatsapp end
   pointer-events: none;
 }
 
-.agenda .section-heading {
-  position: relative;
-  z-index: 1;
-  text-align: center;
-  margin-bottom: 55px;
+/*------------------
+modal
+--------------------*/
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
 }
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 10% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  position: relative; /* Agregado para posicionar elementos relativos a este contenedor */
+}
+
+.close-btn {
+  color: #aaa;
+  font-size: 50px;
+  font-weight: bold;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 20px; /* Ajuste de la propiedad right para mover hacia la izquierda */
+}
+
+.close-btn:hover {
+  color: #ff0000;
+}
+
+.modal-title {
+  float: left;
+  margin-right: 20px; /* Espacio entre el título y el botón de cerrar */
+  color: #e1136f;
+  font-size: 50px;
+  padding-bottom: 20px; /* Espacio entre el título y el contenido del modal */
+}
+
+.modal-text {
+  clear: both; /* Limpiar flotantes antes de comenzar el contenido del texto */
+}
+
+.modal-text p {
+  margin-bottom: 15px; /* Espacio entre párrafos */
+  font-size: 20px;
+}
+
+.modal-text ul {
+  list-style-type: disc; /* Tipo de viñetas (puedes cambiar a 'circle' o 'square') */
+  margin-left: 20px; /* Margen izquierdo para las viñetas */
+}
+
+.modal-text li {
+  margin-bottom: 8px; /* Espacio entre elementos de la lista */
+}
+
+
 /*------------------
   Block - 176
 --------------------*/
@@ -1752,6 +1810,12 @@ block-74 {
   font-family: "Fjalla One", sans-serif;
 }
 
+.agenda .section-heading {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  margin-bottom: 55px;
+}
 /*------------------
   Block - 163
 --------------------*/

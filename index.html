@@ -9,18 +9,21 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Conoce a Josi Fares, un profesional dinámico y dedicado con experiencia en negocios internacionales. Cofundador de la fundación 'Yo_Sí Puedo', empoderando a emprendedores para el éxito.">
-  <meta name="keywords" content="Josi Fares, Emprendedor, Candidato Independiente, Negocios Internacionales, ISGroup Global, Fundación Yo_Sí Puedo, Empoderamiento Empresarial, Diputado 8-4, Cofundador, Camara de Comercio GZ, ROK Investments, Propuestas, Voluntariado, Oportunidades, Desarrollo Comunitario, Cambio, Futuro, Inspiradora Misión, Comunidades, Participación, Tiempo y Esfuerzo, Construcción, Diferencia, Construcción de Oportunidades, Desarrollo Comunitario, Futuro Lleno de Oportunidades">
+  <meta name="description"
+    content="Conoce a Josi Fares, un profesional dinámico y dedicado con experiencia en negocios internacionales. Cofundador de la fundación 'Yo_Sí Puedo', empoderando a emprendedores para el éxito.">
+  <meta name="keywords"
+    content="Josi Fares, Emprendedor, Candidato Independiente, Negocios Internacionales, ISGroup Global, Fundación Yo_Sí Puedo, Empoderamiento Empresarial, Diputado 8-4, Cofundador, Camara de Comercio GZ, ROK Investments, Propuestas, Voluntariado, Oportunidades, Desarrollo Comunitario, Cambio, Futuro, Inspiradora Misión, Comunidades, Participación, Tiempo y Esfuerzo, Construcción, Diferencia, Construcción de Oportunidades, Desarrollo Comunitario, Futuro Lleno de Oportunidades">
   <meta name="author" content="Sergio Piedra">
 
   <!-- Etiquetas Open Graph para redes sociales -->
   <meta property="og:title" content="JOSI FARES DIPUTADO">
-  <meta property="og:description" content="Conoce a Josi Fares, un profesional dinámico y dedicado con experiencia en negocios internacionales. Candidato a diputado por el circuito 8-4">
+  <meta property="og:description"
+    content="Conoce a Josi Fares, un profesional dinámico y dedicado con experiencia en negocios internacionales. Candidato a diputado por el circuito 8-4">
   <meta property="og:image" content="assets/images/logo.png">
   <meta property="og:url" content="https://josifares.com">
   <meta property="og:type" content="website">
 
-    <!-- Global Css Important Files -->
+  <!-- Global Css Important Files -->
   <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
   <link href="assets/css/all.min.css" type="text/css" rel="stylesheet" />
   <link href="assets/css/animate.min.css" type="text/css" rel="stylesheet" />
@@ -129,7 +132,7 @@
     </div>
   </section>
 
-<section class="propuestas" id="propuestas">
+  <section class="propuestas" id="propuestas">
     <div class="container">
       <div class="row">
         <div class="col-12">
@@ -138,41 +141,71 @@
             <div class="sub-heading text">
               Tus ideas valen y queremos escucharlas, envíanos tus propuestas</div>
           </div>
-          </div>
-        </div>
-      </div>
-      <div class="contenedor-botones">
-        <div class="columna">
-          <button class="boton grande">
-            <span class="texto">Propuesta #1</span>
-            <span class="icono">+</span>
-          </button>
-          <button class="boton grande">
-            <span class="texto">Propuesta #2</span>
-            <span class="icono">+</span>
-          </button>
-          <button class="boton grande">
-            <span class="texto">Propuesta #3</span>
-            <span class="icono">+</span>
-          </button>
-        </div>
-        <div class="columna">
-          <button class="boton grande">
-            <span class="texto">Propuesta #4</span>
-            <span class="icono">+</span>
-          </button>
-          <button class="boton grande">
-            <span class="texto">Propuesta #5</span>
-            <span class="icono">+</span>
-          </button>
-          <button class="boton grande">
-            <span class="texto">Propuesta #6</span>
-            <span class="icono">+</span>
-          </button>
         </div>
       </div>
     </div>
+    <div class="contenedor-botones">
+      <div class="columna">
+        <button class="boton grande" onclick="openModal(1)">
+          <span class="texto">Propuesta #1</span>
+          <span class="icono">+</span>
+        </button>
+        <button class="boton grande" onclick="openModal(2)">
+          <span class="texto">Propuesta #2</span>
+          <span class="icono">+</span>
+        </button>
+        <button class="boton grande">
+          <span class="texto">Propuesta #3</span>
+          <span class="icono">+</span>
+        </button>
+      </div>
+      <div class="columna">
+        <button class="boton grande">
+          <span class="texto">Propuesta #4</span>
+          <span class="icono">+</span>
+        </button>
+        <button class="boton grande">
+          <span class="texto">Propuesta #5</span>
+          <span class="icono">+</span>
+        </button>
+        <button class="boton grande">
+          <span class="texto">Propuesta #6</span>
+          <span class="icono">+</span>
+        </button>
+      </div>
+    </div>
+    </div>
   </section>
+
+  <!-- Modal 1 -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <span class="close-btn" onclick="closeModal(1)">&times;</span> <!-- Identificador único, por ejemplo, 1 -->
+      <h2 class="modal-title">1. Escucha activa. Tus ideas valen y queremos escucharlas</h2>
+      <div class="modal-text">
+        <p>Estamos recorriendo el circuito escuchando a los ciudadanos. No podemos pretender ser sus representantes en la Asamblea Nacional y no escuchar a la gente.</p>
+        <p>Estamos construyendo junto a la comunidad y con un equipo de expertos propuestas que sean factibles de realizar, que vayan en beneficio de los ciudadanos y que además interpreten sus sentimientos.</p>
+      </div>
+    </div>
+  </div>
+
+    <!-- Modal 2 -->
+    <div id="modal2" class="modal">
+      <div class="modal-content">
+        <span class="close-btn" onclick="closeModal(2)">&times;</span> <!-- Identificador único, por ejemplo, 1 -->
+        <h2 class="modal-title">2. Escucha activa. Tus ideas valen y queremos escucharlas</h2>
+        <div class="modal-text">
+          <p>Estamos recorriendo el circuito escuchando a los ciudadanos. No podemos pretender ser sus representantes en la Asamblea Nacional y no escuchar a la gente.</p>
+          <p>Estamos construyendo junto a la comunidad y con un equipo de expertos propuestas que sean factibles de realizar, que vayan en beneficio de los ciudadanos y que además interpreten sus sentimientos.</p>
+          <ul>
+            <li>Viñeta 1</li>
+            <li>Viñeta 2</li>
+            <li>Viñeta 3</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
 
   <!--<section class="propuestas" id="propuestas">
     <div class="container">
@@ -637,6 +670,7 @@
   <script src="assets/js/owl.carousel.min.js" type="text/javascript"></script>
   <script src="assets/js/swiper.min.js" type="text/javascript"></script>
   <script src="assets/js/wow.min.js" type="text/javascript"></script>
+  <script src="assets/js/modal.js" type="text/javascript"></script>
   <!-- TemplateBase js Important Files -->
   <script src="assets/js/script.js" type="text/javascript"></script>
 </body>
