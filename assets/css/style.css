@@ -167,9 +167,9 @@ h6 {
   Header Style 1
 --------------------*/
 .HeaderStyle-1 .navbar {
-  padding: 10px 0px;
+  padding: 0px 0px;
   transition: all 0.3s ease-in-out;
-  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.941);
 }
 .HeaderStyle-1 .navbar .navbar-nav .nav-item .nav-link {
   color: rgba(255, 255, 255, 0.65);
