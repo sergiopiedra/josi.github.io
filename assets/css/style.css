@@ -164,7 +164,7 @@ h6 {
   Header Style 1
 --------------------*/
 .HeaderStyle-1 .navbar {
-  padding: 0px 0px;
+  padding: 3px 0px;
   transition: all 0.3s ease-in-out;
   background-color: rgba(255, 255, 255, 0.941);
 }
@@ -209,7 +209,7 @@ h6 {
 }
 .HeaderStyle-1 .nav-sticky {
   background-color: rgba(255, 255, 255, 0.829);
-  padding: 20px 0px;
+  padding: 0px 0px;
   box-shadow: 0px 4px 20px rgba(5, 47, 97, 0.08);
 }
 .HeaderStyle-1 .nav-sticky .navbar-nav .nav-item .nav-link {
@@ -427,7 +427,7 @@ whatsapp end
 }
 .banner .text-white {
   color: #fff !important;
-  font-size: 100px !important;
+  font-size: 130px !important;
   font-family: "Godger", sans-serif !important;
   text-align: left !important;
   line-height: 0.2;
