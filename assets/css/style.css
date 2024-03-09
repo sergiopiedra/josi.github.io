@@ -167,8 +167,9 @@ h6 {
   Header Style 1
 --------------------*/
 .HeaderStyle-1 .navbar {
-  padding: 20px 0px;
+  padding: 10px 0px;
   transition: all 0.3s ease-in-out;
+  background-color: #ffffff;
 }
 .HeaderStyle-1 .navbar .navbar-nav .nav-item .nav-link {
   color: rgba(255, 255, 255, 0.65);
@@ -179,7 +180,7 @@ h6 {
 .HeaderStyle-1 .navbar .navbar-nav .nav-item .nav-link:hover,
 .HeaderStyle-1 .navbar .navbar-nav .nav-item .nav-link:focus,
 .HeaderStyle-1 .navbar .navbar-nav .nav-item .nav-link.active {
-  color: #fff;
+  color: #e5006d;
 }
 .HeaderStyle-1 .navbar .navbar-nav .nav-item.active .nav-link {
   color: #fff !important;
@@ -197,9 +198,10 @@ h6 {
 }
 .HeaderStyle-1 .navbar .navbar-brand .logo-light {
   display: block;
+  text-shadow: 0px 4px 20px rgba(4, 117, 255, 0.08);
 }
 .HeaderStyle-1 .nav-sticky {
-  background-color: rgba(255, 255, 255, 0.784);
+  background-color: rgba(255, 255, 255, 0.829);
   padding: 20px 0px;
   box-shadow: 0px 4px 20px rgba(5, 47, 97, 0.08);
 }
@@ -250,18 +252,17 @@ h6 {
   }
 }
 .HeaderStyle-1 .navbar .navbar-nav .nav-item .nav-link {
-  color: #242424;
+  color: #75AFDE;
   padding: 8px 16px;
   font-weight: 500;
   font-size: 18px;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.127);
 }
 .HeaderStyle-1 .navbar .navbar-nav .nav-item.active .nav-link {
   color: #e5006d !important;
 }
 .HeaderStyle-1 .nav-sticky .nav-item .nav-link {
   font-size: 18px !important;
-  color: #242424 !important;
+  color: #75afde !important;
   text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.262);
 }
 .HeaderStyle-1 .nav-sticky .nav-item .nav-link:hover {
