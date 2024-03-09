@@ -2918,7 +2918,7 @@ block-74 {
 }
 
 /*------------------
-  Block - 175
+  Bloque - 175
 --------------------*/
 
 .promoBanner {
@@ -2957,6 +2957,7 @@ block-74 {
   line-height: 72px;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.565);
 }
+
 .promoBanner .business_exposer .sub-heading {
   font-family: "Fjalla One", sans-serif;
   font-size: 25px;
@@ -2979,6 +2980,7 @@ block-74 {
 
 @media only screen and (max-width: 768px) {
   .promoBanner {
+    background-attachment: scroll; /* Cambio a scroll para dispositivos móviles */
     padding: 120px 0; /* Ajusta el padding para dispositivos más pequeños */
   }
 
