@@ -517,12 +517,13 @@ whatsapp end
   padding-left: 30px;
   position: relative;
   margin-bottom: 18px;
+  font-size: 14px;
 }
 .about .alvabout-content .alvabout-list li:after {
   left: 0;
   top: -3px;
   color: #e5006d;
-  font-size: 20px;
+  font-size: 17px;
   content: "";
   font-weight: 900;
   position: absolute;
