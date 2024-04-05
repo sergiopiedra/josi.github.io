@@ -640,6 +640,25 @@ whatsapp end
   -webkit-text-fill-color: transparent;
 }
 
+.alvabout-pdf-button {
+  margin-top: 40px; /* Ajusta el margen superior según sea necesario para colocar el botón más abajo */
+}
+
+.alvabout-pdf-button .btn {
+  background-color: #e5006d; /* Color de fondo del botón */
+  color: #fff; /* Color del texto del botón */
+  padding: 5px 50px; /* Ajusta el relleno del botón según sea necesario */
+  border-radius: 5px; /* Borde redondeado */
+  text-decoration: none; /* Quita la subrayado del texto */
+  display: inline-block; /* Para que el botón ocupe solo el espacio necesario */
+  transition: background-color 0.3s ease; /* Transición suave para el cambio de color de fondo */
+}
+
+.alvabout-pdf-button .btn:hover {
+  background-color: #75afde; /* Color de fondo del botón al pasar el ratón */
+}
+
+
 /*------------------
   Block - 177
 --------------------*/
