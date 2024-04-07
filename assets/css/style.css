@@ -3281,3 +3281,73 @@ block-74 {
   position: relative;
   z-index: 1;
 }
+
+/*------------------
+  Modal
+--------------------*/
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.8); /* Cambiado el valor de opacidad */
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 20% auto; /* Ajustado el margen superior para que se muestre más abajo */
+  padding: 20px;
+  border: 1px solid #e5006d;
+  width: 60%;
+  max-width: 400px; /* Máximo ancho para el modal */
+  position: relative; /* Agregado para posicionar correctamente la 'x' */
+}
+
+@media (max-width: 992px) {
+  .modal-content {
+    margin: 45% auto; /* Ajustado el margen superior para que se muestre más abajo */
+  }
+}
+
+.modal-text {
+  margin-top: 25px;
+  color: #e5006d;
+  font-family: "fjalla one", sans-serif;
+  font-size: 20px !important; /* Corregido el valor de tamaño de fuente */
+  font-weight: 500 !important; /* Corregido el valor de peso de fuente */
+}
+
+.close {
+  color: #e5006d;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+  position: absolute; /* Agregado para posicionar absolutamente la 'x' */
+  top: 0; /* Alinear la 'x' con el borde superior del modal */
+  right: 0; /* Alinear la 'x' con el borde derecho del modal */
+  margin: 15px; /* Añadir un pequeño margen para la 'x' */
+}
+
+.close:hover {
+  color: #000;
+}
+
+/* Estilo para el hover de enlaces dentro del modal */
+.modal-content a {
+  color: #75afde; /* Color predeterminado de los enlaces */
+  text-decoration: none;
+}
+
+.modal-content a:hover {
+  text-decoration: underline; /* Subrayado al pasar el ratón */
+}
+
+
+/*------------------
+  Modal FIN
+--------------------*/
