@@ -2344,7 +2344,7 @@ section,
 
 .mision-section {
   font-family: "Helvetica Neue", sans-serif;
-  color: #1c3b57;
+  color: #01426c;
   background: #f9f9f9;
 }
 
@@ -2369,7 +2369,7 @@ section,
 }
 
 .mision-content .resaltado {
-  color: #004d99;
+  color: #01426c;
 }
 
 .mision-grid {
@@ -2388,7 +2388,7 @@ section,
 }
 
 .mision-item .icono {
-  background-color: #004d99;
+  background-color: #01426c;
   border-radius: 50%;
   padding: 1rem;
   display: inline-block;
@@ -2399,7 +2399,7 @@ section,
   font-size: 1.2rem;
   font-weight: bold;
   margin-bottom: 0.5rem;
-  color: #004d99;
+  color: #01426c;
 }
 
 .mision-item p {
@@ -2408,6 +2408,7 @@ section,
 }
 
 .mision-frase {
+  color: #01426c;
   font-size: 1rem;
   margin-top: 1rem;
   font-weight: 500;
@@ -2454,7 +2455,11 @@ section,
 }
 
 .mision-content .resaltado {
-  color: #004d99;
+  color: #01426c;
+}
+
+.mision-content .pink {
+  color: #e5006d;
 }
 
 .mision-grid {
@@ -2487,7 +2492,7 @@ section,
 }
 
 .mision-item .icono {
-  background-color: #004d99;
+  background-color: #01426c;
   border-radius: 50%;
   padding: 1rem;
   display: inline-block;
@@ -2498,7 +2503,7 @@ section,
   font-size: 1.2rem;
   font-weight: bold;
   margin-bottom: 0.5rem;
-  color: #004d99;
+  color: #01426c;
 }
 
 /* Responsive: Subtítulo más pequeño en móvil */
