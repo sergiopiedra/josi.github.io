@@ -2345,7 +2345,7 @@ section,
 .mision-section {
   font-family: "Helvetica Neue", sans-serif;
   color: #01426c;
-  background: #f9f9f9;
+  background: #ffffff;
 }
 
 .mision-banner img {
@@ -2536,5 +2536,151 @@ section,
 @media (max-width: 575.98px) {
   .mision-frase {
     font-size: 0.92rem;
+  }
+}
+
+/*--------------------------------------------------------------
+# Financial Section
+--------------------------------------------------------------*/
+
+.financiamiento-section {
+  background-color: #ffffff;
+  padding: 3rem 1rem;
+  text-align: center;
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+.diagram-wrapper {
+  position: relative;
+  width: 320px;
+  height: 320px;
+  margin: 0 auto 2rem;
+}
+.financiamiento-section h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #004a7c;
+  margin-bottom: 2rem;
+}
+
+.financiamiento-section h2 span {
+  font-weight: 400;
+}
+
+.financiamiento-section p {
+  color: #000000;
+  margin-bottom: 50px;
+}
+
+/* PETALOS */
+.petal {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  background-color: #cceeff;
+  border-radius: 60% 70% 70% 60% / 60% 60% 70% 70%;
+  display: flex;
+  align-items: flex-start; /* Para bajar el número */
+  justify-content: center;
+  box-shadow: 0 0 0 5px #ffffff;
+}
+
+.petal-num {
+  font-weight: normal; /* No bold */
+  font-size: 2.2rem;
+  color: #222;
+  margin-top: 32px; /* Baja el número dentro del pétalo */
+  letter-spacing: 2px; /* Más separación visual */
+}
+
+/* Ajusta las posiciones para que se junten en el centro */
+.petal1 {
+  left: -10px;
+  top: 80px;
+  transform: rotate(-20deg);
+  z-index: 2;
+}
+.petal2 {
+  left: 80px;
+  top: -10px;
+  transform: rotate(20deg);
+  z-index: 2;
+}
+.petal3 {
+  left: 80px;
+  top: 150px;
+  transform: rotate(20deg);
+  z-index: 2;
+}
+
+/* LABELS */
+.label {
+  position: absolute;
+  font-size: 1rem;
+  color: #111;
+  font-weight: 500;
+  padding: 2px 8px;
+  border-radius: 6px;
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+.label1 {
+  left: -95px;
+  top: 140px;
+}
+.label2 {
+  right: -85px;
+  top: 15px;
+}
+.label3 {
+  right: -85px;
+  bottom: 15px;
+}
+.descripcion {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1rem;
+  color: #333;
+}
+
+/* Responsive: diagrama más pequeño y labels mejor ubicados */
+@media (max-width: 500px) {
+  .diagram-wrapper {
+    width: 200px;
+    height: 200px;
+  }
+  .petal {
+    width: 110px;
+    height: 110px;
+  }
+  .petal-num {
+    font-size: 1.2rem;
+    margin-top: 18px;
+  }
+  .petal1 {
+    left: -7px;
+    top: 50px;
+  }
+  .petal2 {
+    left: 50px;
+    top: -7px;
+  }
+  .petal3 {
+    left: 50px;
+    top: 90px;
+  }
+
+  .label1 {
+    left: -65px;
+    top: 90px;
+  }
+  .label2 {
+    right: -60px;
+    top: 5px;
+  }
+  .label3 {
+    right: -60px;
+    bottom: 5px;
   }
 }
