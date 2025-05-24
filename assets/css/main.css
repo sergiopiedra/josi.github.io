@@ -367,6 +367,7 @@ section,
   background-color: var(--background-color);
   scroll-margin-top: 72px;
   overflow: clip;
+  border-radius: 0%;
 }
 
 @media (max-width: 1199px) {
@@ -376,6 +377,14 @@ section,
   }
 }
 
+.about-section,
+.about-image,
+.about-image img,
+.vision-section,
+.vision-image,
+.vision-image img {
+  border-radius: 0 !important;
+}
 /*--------------------------------------------------------------
 # Global Section Titles
 --------------------------------------------------------------*/
